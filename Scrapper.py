@@ -53,6 +53,8 @@ def main():
             if exc.errno != errno.EEXIST:
                 raise
     scrap()
+    print("Successfully Scrapped")
+	
 
 
 if __name__ == '__main__':
